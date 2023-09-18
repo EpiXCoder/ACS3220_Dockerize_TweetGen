@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tweet Generator</title>
+</head>
+<style type="text/css">
+  html {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    text-align: center;
+    font-family: Gothica;
+    font-size: 20px;
+    color: #34354a;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 17.5px;
+    border: 1px solid #2ca6db;
+    border-radius: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #34354a;
+    background-color: #abd5d1;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  button:hover {
+    background-color:  #e8b28e;
+  }
+
+</style>
+<body>
+    <img src="https://www.nicepng.com/png/detail/83-835698_meditate-and-get-happy-meditation.png" width="150" height="200">
+    <blockquote>{{sentence}}</blockquote>
+    <button onClick="window.location.reload()">r e g e n e r a t e</button>
+</body>
+</html>
